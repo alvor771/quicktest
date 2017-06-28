@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../joomla.int/.idea/joomla.int.iml" filepath="$PROJECT_DIR$/../joomla.int/.idea/joomla.int.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lessons.int/.idea/lessons.int.iml" filepath="$PROJECT_DIR$/../lessons.int/.idea/lessons.int.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/quicktest.int.iml" filepath="$PROJECT_DIR$/.idea/quicktest.int.iml" />
+    </modules>
+  </component>
+</project>

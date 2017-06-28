@@ -1,0 +1,7 @@
+@import url(../css/main.css);
+/* line 5, ../sass/main.scss */
+body {
+  background-color: "#fff000";
+}
+
+

@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+/*@import url('fonts/roboto.styles');*/
+
+/***** RESETS ****************************************/
+.btn:hover {
+	transition: all 0.3s ease 0s;
+}
+
+/*****************************************************/
+body {
+	/*background-color: #333333;*/
+}
+.main-area {
+	background: #f9fbfc;
+}
+.topbar {
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 0px;
+	background: #fff;
+	border-bottom: 1px solid #eff1f1;
+	padding: 20px 0;
+}
+.topbar img.logo {
+	width: 200px;
+	margin: 21px 0;
+}
+button {
+	background: transparent;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.upanel_btn {
+	line-height: 42px;
+	padding: 8px 10px;
+}
+.upanel_btn:hover {
+	background: #f8f8f8;
+}
+.user_ava img {
+	width: 45px;
+	height: 45px;
+	margin: -2px 0 0 -2px;
+}
+
+.btn-blue, .bg-blue {
+	color: #fff;
+	background: #5bc4f3 !important;
+}
+
+.navbar {
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	border: none;
+	margin-bottom: 0;
+	padding: 20px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.top-nav-collapse {
+	padding: 15px;
+}
+
+.navbar-brand {
+	padding: 3px 0 0;
+	height: auto;
+}
+
+.navbar-nav>li>a {
+	color: #404B55;
+	font-size: 15px;
+	font-weight: 700;
+	opacity: 0.8;
+	padding: 9px 15px;
+	border-radius: 5px;
+	margin-right: 2px;
+}
+
+.navbar-nav>li>a:focus {
+	background-color: transparent;
+}
+
+.navbar-nav>li>a:hover {
+	opacity: 1;
+	background-color: transparent;
+}
+
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:hover,
+.navbar-nav>.active>a:focus {
+	background-color: #eee;
+	opacity: 1;
+}
+
+.navbar-toggle {
+	border: none;
+	padding: 5px 8px 3px;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #404B55;
+	opacity: 0.8;
+}
+
+.navbar-toggle:hover .icon-bar {
+	opacity: 1;
+}
+/*------------------------------------------*/
+/*   Navbar Transparent/ Navbar Color
+/*------------------------------------------*/
+.navbar.bg-color {
+	background-color: #525e6c;
+}
+
+.navbar.bg-transparent {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	color: #fff;
+}
+
+.navbar.bg-transparent.top-nav-collapse {
+	background-color: #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.1);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar.bg-transparent .logo-white,
+.navbar.bg-transparent.top-nav-collapse .logo-black {
+	display: block;
+}
+
+.navbar.bg-transparent.top-nav-collapse .logo-white,
+.navbar.bg-transparent .logo-black {
+	display: none;
+}
+
+.navbar.bg-transparent .navbar-nav>li>a,
+.navbar.bg-color .navbar-nav>li>a {
+	color: #fff;
+	opacity: 1;
+}
+
+.navbar.bg-transparent.top-nav-collapse .navbar-nav>li>a {
+	color: #404B55;
+	opacity: 0.8;
+}
+
+.navbar.bg-transparent.top-nav-collapse .navbar-nav>li>a.btn-nav {
+	color: #fff;
+	opacity: 1;
+}
+
+.navbar.bg-color .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+	opacity: 1;
+}
+
+/*------------------------------------------*/
+/*   Navbar Static
+/*------------------------------------------*/
+.navbar-static-top {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+/*------------------------------------------*/
+/*   Navbar Only Logo Centered
+/*------------------------------------------*/
+.navbar.nav-onlylogo .navbar-header {
+	width: 100%;
+}
+
+.navbar.nav-onlylogo .navbar-brand {
+	float: none;
+	display: block;
+}
+
+.navbar.nav-onlylogo.bg-transparent .logo-white,
+.navbar.nav-onlylogo.bg-transparent.top-nav-collapse .logo-black{
+	display: block;
+}
+
+.navbar.nav-onlylogo.bg-transparent .logo-black,
+.navbar.nav-onlylogo.bg-transparent.top-nav-collapse .logo-white{
+	display: none;
+}
+
+/*------------------------------------------*/
+/*   Navbar with Login and Signup
+/*------------------------------------------*/
+.navbar-nav>li>a.btn-login,
+.navbar-nav>li>a.btn-signup {
+	padding-top: 7px;
+	padding-bottom: 8px;
+	margin-bottom: 0;
+}
+
+.navbar-nav>li>a.btn-login{
+	margin-left: 150px;
+	margin-right: 10px;
+}
+
+.navbar-nav>li>a.btn-signup {
+	color: #fff !important;
+	opacity: 1;
+}
+
+/********/
+.our_services_num {
+	width: 60px;
+	height: 60px;
+	float: left;
+	border: 1px solid #eceded;
+	/*margin: -4px;*/
+	padding: 5px;
+	transition: all 0.8s ease 0s;
+	z-index: 10;
+	display: block;
+	background: #fff;
+}
+
+.services_num {
+	background: #F6BB42;
+	color: #fff;
+	width: 48px;
+	height: 48px;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 15px;
+	font-weight: bold;
+	transition: all 0.3s ease 0s;
+}
+.radius_num {
+	border: 2px solid #fff;
+	width: 28px;
+	height: 28px;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 25px;
+	margin-top: 10px;
+	text-align: center;
+}
+.circle {
+	border-radius: 50%;
+}
+.border-circle {
+	border: 1px solid #ddd;
+	padding: 3px;
+	border-radius: 50px;
+	vertical-align: middle;
+}
+.our_services {
+	margin-bottom: 5px;
+	border: 1px solid #eceded !important;
+	position: relative;
+	display: block;
+	background: #fff;
+	height: 60px;
+}
+
+.question {
+	padding: 10px 25px;
+	border-bottom: 1px solid #eeeeee;
+}
+.question .question_num {
+	width: 83px;
+	display: block;
+	overflow: hidden;
+	float: left;
+}
+
+.question .question_data {
+	border-left: 1px solid #eeeeee;
+	overflow: hidden;
+	padding-left: 30px;
+}
+.question .question_data h4 {
+	font-size: 16px;
+	color: #333333;
+	font-family: 'Roboto';
+	margin-top: 10px;
+}
+.question .question_data label {
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Roboto';
+	font-weight: 300;
+	margin-top: 10px;
+}
+
+.page-header {
+	background: #ffffff url("../images/background.jpg");
+	margin: 0;
+	padding: 15px 0;
+}
+.page-header h1 {
+	margin: 0;
+	padding: 0;
+}
+
+.footer {
+	background: #ffffff;
+	padding: 35px;
+	text-align: center;
+	/*color: #cccccc;*/
+}
