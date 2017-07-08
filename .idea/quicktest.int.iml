@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="joomla.int" />
     <orderEntry type="module" module-name="lessons.int" />
+    <orderEntry type="module" module-name="avitracker.int" />
   </component>
 </module>
